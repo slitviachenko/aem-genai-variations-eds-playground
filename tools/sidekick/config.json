@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    {
+      "id": "aem-genai-variations",
+      "titleI18n": {
+        "en": "AEM Generate Variations"
+      },
+      "environments": [
+        "preview"
+      ],
+      "includePaths": [
+        "**.docx**"
+      ],
+      "event": "aem-genai-variations-sidekick"
+    }
+  ]
+}

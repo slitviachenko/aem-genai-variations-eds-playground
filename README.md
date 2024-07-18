@@ -26,5 +26,5 @@ npm run lint
 1. Open the `aem-genai-variations-eds-playground` directory in your favorite IDE and start coding :)
 
 ## Useful links
-- https://www.aem.live/docs/sidekick
+- https://www.aem.live/developer/sidekick-customization
 - https://www.aem.live/docs/setup-adobe-sharepoint
