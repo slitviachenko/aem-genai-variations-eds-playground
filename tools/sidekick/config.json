@@ -3,7 +3,7 @@
     {
       "id": "aem-genai-variations",
       "titleI18n": {
-        "en": "AEM Generate Variations"
+        "en": "Generate with AI"
       },
       "environments": [
         "preview"
