@@ -29,4 +29,16 @@
         .addEventListener('custom:aem-genai-variations-sidekick', handlePluginButtonClick);
     }, { once: true });
   }
+
+  const sidekickV2 = document.querySelector('aem-sidekick');
+  if (sidekickV2) {
+    // sidekick already loaded
+    sidekickV2.addEventListener('custom:aem-genai-variations-sidekick', handlePluginButtonClick);
+  } else {
+    // wait for sidekick to be loaded
+    document.addEventListener('sidekick-ready', () => {
+      document.querySelector('aem-sidekick')
+        .addEventListener('custom:aem-genai-variations-sidekick', handlePluginButtonClick);
+    }, { once: true });
+  }
 }());
