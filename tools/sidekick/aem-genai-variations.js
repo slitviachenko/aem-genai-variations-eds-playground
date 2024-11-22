@@ -18,6 +18,7 @@
     }
   }
 
+  // The code snippet for the Sidekick V1 extension, https://chromewebstore.google.com/detail/aem-sidekick/ccfggkjabjahcjoljmgmklhpaccedipo?hl=en
   const sidekick = document.querySelector('helix-sidekick');
   if (sidekick) {
     // sidekick already loaded
@@ -30,6 +31,7 @@
     }, { once: true });
   }
 
+  // The code snippet for the Sidekick V2 extension, https://chromewebstore.google.com/detail/aem-sidekick/igkmdomcgoebiipaifhmpfjhbjccggml?hl=en
   const sidekickV2 = document.querySelector('aem-sidekick');
   if (sidekickV2) {
     // sidekick already loaded
