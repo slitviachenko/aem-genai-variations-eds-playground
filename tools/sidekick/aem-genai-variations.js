@@ -13,6 +13,7 @@
   }
 
   function handlePluginButtonClick() {
+    console.debug('The `custom:aem-genai-variations-sidekick` event has been received.');
     if (!isAEMGenAIVariationsAppLoaded) {
       loadAEMGenAIVariationsApp();
     }
