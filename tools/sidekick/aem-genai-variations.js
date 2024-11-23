@@ -2,7 +2,7 @@
   let isAEMGenAIVariationsAppLoaded = false;
   function loadAEMGenAIVariationsApp() {
     const script = document.createElement('script');
-    script.src = 'https://experience.adobe.com/solutions/aem-sites-genai-aem-genai-variations-mfe/static-assets/resources/sidekick/client.js?source=plugin&aem-sites-genai-aem-genai-variations-mfe_version=PR-159-86ede02d0a22af724dd70b58a177bb5bf483ad95';
+    script.src = 'https://experience.adobe.com/solutions/aem-sites-genai-aem-genai-variations-mfe/static-assets/resources/sidekick/client.js?source=plugin';
     script.onload = function () {
       isAEMGenAIVariationsAppLoaded = true;
     };
@@ -13,7 +13,6 @@
   }
 
   function handlePluginButtonClick() {
-    console.debug('The `custom:aem-genai-variations-sidekick` event has been received.');
     if (!isAEMGenAIVariationsAppLoaded) {
       loadAEMGenAIVariationsApp();
     }
